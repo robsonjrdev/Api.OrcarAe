@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.OrcarAe", "Api.OrcarAe\Api.OrcarAe.csproj", "{6B475E32-70D7-42FF-85FB-55254397A3FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.OrcarAe", "Api.OrcarAe\Api.OrcarAe.csproj", "{6B475E32-70D7-42FF-85FB-55254397A3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{428C6E56-7671-4C1A-B8D0-5AB87983AF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F553BC65-3CDA-4A5D-9A14-D189EF22A132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{1290E523-BCD4-4A63-B4BF-487FE7AAADFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{6B475E32-70D7-42FF-85FB-55254397A3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B475E32-70D7-42FF-85FB-55254397A3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B475E32-70D7-42FF-85FB-55254397A3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428C6E56-7671-4C1A-B8D0-5AB87983AF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428C6E56-7671-4C1A-B8D0-5AB87983AF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428C6E56-7671-4C1A-B8D0-5AB87983AF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428C6E56-7671-4C1A-B8D0-5AB87983AF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F553BC65-3CDA-4A5D-9A14-D189EF22A132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F553BC65-3CDA-4A5D-9A14-D189EF22A132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F553BC65-3CDA-4A5D-9A14-D189EF22A132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F553BC65-3CDA-4A5D-9A14-D189EF22A132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1290E523-BCD4-4A63-B4BF-487FE7AAADFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1290E523-BCD4-4A63-B4BF-487FE7AAADFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1290E523-BCD4-4A63-B4BF-487FE7AAADFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1290E523-BCD4-4A63-B4BF-487FE7AAADFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
